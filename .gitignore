@@ -1,0 +1,40 @@
+##################
+# specific files #
+##################
+
+downloads/*
+documents/*
+software/*
+.private/*
+.ssh/*
+music/*
+.lyrics/*
+.cache/*
+.bash_history
+.adobe/*
+.macromedia/*
+.local/*
+.i3/logs/*
+.weechat/irc.conf
+.config/mpd/mpd.log
+
+# Compiled Sources
+
+*.7z
+*.bz2
+*.gz
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.tbz2
+*.tgz
+*.xz
+*.zip
+*.Z
+
+# Temp files
+
+*.swp
