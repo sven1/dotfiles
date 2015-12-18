@@ -1,0 +1,1 @@
+player=vlc -I dummy --file-caching 2000 --network-caching 2000

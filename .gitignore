@@ -19,6 +19,8 @@ music/*
 .config/mpd/mpd.log
 .viminfo
 .xsel.log
+.weechat/weechat.log
+.mplayer/*
 
 # Compiled Sources
 

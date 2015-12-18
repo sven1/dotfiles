@@ -86,6 +86,7 @@ export LESS="-R"
 # Por defecto.
 export EDITOR="vim"
 export BROWSER="luakit"
+export XDG_CONFIG_HOME="~/.config"
 
 #----------------------------------------------------------------------#
 # Alias
