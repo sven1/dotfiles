@@ -17,6 +17,7 @@ music/*
 .i3/logs/*
 .weechat/irc.conf
 .config/mpd/mpd.log
+.viminfo
 
 # Compiled Sources
 

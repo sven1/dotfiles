@@ -64,26 +64,29 @@
 	}
 
 # File marks:
-'0  19  18  ~/.gitignore
-'1  1  49  ~/README.md
-'2  9  5  ~/.gitignore
-'3  1  0  ~/.gitconfig
-'4  1  0  ~/.gitignore
-'5  14  0  ~/.gitignore
-'6  20  37  ~/.gitconfig
-'7  39  0  ~/.gitignore
-'8  1  0  ~/.gitignore_global
-'9  5  0  ~/.gitignore
+'0  18  0  ~/.gitignore
+'1  20  7  ~/.gitignore
+'2  1  0  ~/.gitignore
+'3  17  0  ~/.gitignore
+'4  19  18  ~/.gitignore
+'5  1  49  ~/README.md
+'6  9  5  ~/.gitignore
+'7  1  0  ~/.gitconfig
+'8  14  0  ~/.gitignore
+'9  20  37  ~/.gitconfig
 
 # Jumplist (newest first):
--'  19  18  ~/.gitignore
+-'  18  0  ~/.gitignore
 -'  1  0  ~/.gitignore
+-'  20  7  ~/.gitignore
+-'  17  0  ~/.gitignore
+-'  19  18  ~/.gitignore
 -'  1  49  ~/README.md
 -'  9  5  ~/.gitignore
 -'  1  0  ~/.gitconfig
 -'  14  0  ~/.gitignore
 -'  20  37  ~/.gitconfig
--'  39  0  ~/.gitignore
+-'  40  0  ~/.gitignore
 -'  6  0  ~/.gitignore
 -'  5  0  ~/.gitignore
 -'  1  0  ~/.gitignore_global
@@ -171,16 +174,13 @@
 -'  49  7  ~/.i3/lemonbar/i3_lemonbar.sh
 -'  1  0  ~/.i3/lemonbar/bin/gmail.sh
 -'  27  0  ~/bin/gmail.sh
--'  50997  0  ~/.local/share/luakit/adblock/easylist.txt
--'  1  0  ~/.local/share/luakit/adblock/easylist.txt
--'  150  0  ~/.weechat/irc.conf
 
 # History of marks within files (newest to oldest):
 
 > ~/.gitignore
-	"	19	18
-	^	19	19
-	.	19	18
+	"	18	0
+	^	20	8
+	.	20	7
 	+	5	11
 	+	8	10
 	+	10	7
@@ -192,7 +192,7 @@
 	+	16	8
 	+	17	9
 	+	18	17
-	+	41	0
+	+	42	0
 	+	6	11
 	+	7	9
 	+	6	0
@@ -204,14 +204,15 @@
 	+	3	17
 	+	1	0
 	+	4	0
-	+	20	0
-	+	23	0
-	+	21	18
-	+	37	0
-	+	40	0
-	+	38	12
+	+	21	0
+	+	24	0
+	+	22	18
+	+	38	0
+	+	41	0
+	+	39	12
 	+	9	5
 	+	19	18
+	+	20	7
 
 > ~/README.md
 	"	1	49
