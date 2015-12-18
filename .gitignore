@@ -15,6 +15,7 @@ music/*
 .macromedia/*
 .local/*
 .i3/logs/*
+.elinks/*
 .weechat/irc.conf
 .config/mpd/mpd.log
 .config/mpd/mpd.pid
