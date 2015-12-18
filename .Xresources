@@ -27,6 +27,7 @@ URxvt.urgentOnBell: True
 URxvt.visualBell: False
 URxvt*saveLines: 1024
 URxvt*mouseWheelScrollPage: true
+URxvt.iso14755: False
 URxvt.perl-ext-common: default,clipboard,keyboard-select,url-select
 URxvt.keysym.C-S-C: perl:clipboard:copy
 URxvt.keysym.C-S-V: perl:clipboard:paste
@@ -34,11 +35,11 @@ URxvt.keysym.C-S-W: perl:clipboard:paste_escaped
 URxvt.clipboard.copycmd:  xsel -ib
 URxvt.clipboard.pastecmd: xsel -ob
 URxvt.keysym.C-Escape: perl:keyboard-select:activate
-URxvt.keysym.C-S-S: perl:keyboard-select:search
+URxvt.keysym.C-S-X: perl:keyboard-select:search
 URxvt.keysym.C-S-U: perl:url-select:select_next
 URxvt.url-select.autocopy: true
 URxvt.url-select.button: 1
-URxvt.url-select.launcher: /usr/bin/firefox
+URxvt.url-select.launcher: luakit
 URxvt.url-select.underline: true
 
 URxvt.keysym.S-Up             : \033[1;2A
