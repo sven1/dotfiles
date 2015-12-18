@@ -86,7 +86,8 @@ export LESS="-R"
 # Por defecto.
 export EDITOR="vim"
 export BROWSER="luakit"
-export XDG_CONFIG_HOME="~/.config"
+export XDG_CONFIG_HOME="~/.config/"
+export SDCV_PAGER="less"
 
 #----------------------------------------------------------------------#
 # Alias
@@ -96,6 +97,8 @@ export XDG_CONFIG_HOME="~/.config"
 alias rm='rm -i'
 alias cp='cp -i'
 alias mv='mv -i'
+
+alias luakit='luakit -c /home/sven/.config/luakit/rc.lua'
 
 # Alias de limpieza
 alias texclean='rm -f *.toc *.aux *.log *.cp *.fn *.tp *.vr *.pg *.ky'

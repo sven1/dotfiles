@@ -25,7 +25,7 @@ $(dirname $0)/i3_workspaces.pl > "${panel_fifo}" &
 
 # IRC, "IRC"
 # only for init
-~/.i3/lemonbar/bin/irc_warn &
+#~/.i3/lemonbar/bin/irc_warn &
 
 # Conky, "SYS"
 conky -c $(dirname $0)/i3_lemonbar_conky > "${panel_fifo}" &

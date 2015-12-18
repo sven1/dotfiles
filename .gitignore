@@ -17,10 +17,16 @@ music/*
 .i3/logs/*
 .weechat/irc.conf
 .config/mpd/mpd.log
+.config/mpd/mpd.pid
+.config/mpd/mpd.state
 .viminfo
 .xsel.log
 .weechat/weechat.log
 .mplayer/*
+.Xauthority
+.sdcv_history
+.config/gtk-2.0/*
+.stardict/*
 
 # Compiled Sources
 

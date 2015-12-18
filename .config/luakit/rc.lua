@@ -56,6 +56,7 @@ require "binds"
 -- Optional user script loading --
 ----------------------------------
 
+
 require "webinspector"
 
 -- Add sqlite3 cookiejar
@@ -145,6 +146,8 @@ require "go_input"
 require "go_next_prev"
 require "go_up"
 
+require "adblock"
+require "adblock_chrome"
 -----------------------------
 -- End user script loading --
 -----------------------------
@@ -180,5 +183,3 @@ end
 
 -- vim: et:sw=4:ts=8:sts=4:tw=80
 --
-require "adblock"
-require "adblock_chrome"
