@@ -4,10 +4,11 @@
 
 . $(dirname $0)/i3_lemonbar_config
 
-#if [ $(pgrep -cx $(basename $0)) -gt 1 ] ; then
-#    printf "%s\n" "The status bar is already running." >&2
-#    exit 1
-#fi
+if [ $(pgrep -cx "i3_lemonbar.sh") -gt 2 ] ; then
+#if [ $(pgrep -cx $(basename $0)) -gt 4 ] ; then
+    printf "%s\n" "The status bar is already running." >&2
+    exit 1
+fi
 
 trap 'trap - TERM; kill 0' INT TERM QUIT EXIT
 
