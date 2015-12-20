@@ -83,6 +83,7 @@ export LESS="-R"
 alias cp='cp -i'
 alias mv='mv -i'
 
+alias hearthstone='wine $HOME/.wine/drive_c/Program\ Files\ \(x86\)/Battle.net/Battle.net\ Launcher.exe'
 alias luakit='luakit -c /home/sven/.config/luakit/rc.lua'
 
 # Alias de limpieza

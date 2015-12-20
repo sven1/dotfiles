@@ -21,6 +21,7 @@ music/*
 .config/mpd/mpd.log
 .config/mpd/mpd.pid
 .config/mpd/mpd.state
+.config/menus/*
 .viminfo
 .xsel.log
 .weechat/weechat.log
