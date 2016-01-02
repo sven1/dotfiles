@@ -32,6 +32,7 @@ call vundle#begin()
 	Plugin 'edkolev/promptline.vim'				" Prompt generator for bash
 	Plugin 'altercation/vim-colors-solarized.git'	" Solarized theme
 	"Plugin 'nathanaelkane/vim-indent-guides.git'	" Show tab/space guides
+	Plugin 'The-NERD-Commenter'
 
   " All of your Plugins must be added before the following line
 call vundle#end()
@@ -103,6 +104,11 @@ set showcmd							" show cmd
 set ruler							" show cursor line number
 set shm=atI							" cut large messages
 
+" Save last cursor position
+if has("autocmd")
+	au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g'\"" | endif
+endif
+
 " Colours
 set t_Co=256
 if &term == "xterm"
@@ -116,26 +122,6 @@ else
 	let g:hybrid_use_Xresources = 1
 	set background=dark
 	colorscheme hybrid_e7
-endif
-
-" gVim
-if has('gui_running')
-	if has("win32")
-		set guifont=Lucida_Console:h8
-		set lines=40							" Nº lines
-		set columns=90							" Nº columns
-	else
-		set guifont=Inconsolata\ for\ Powerline\ 10
-	endif
-	set guioptions-=m							" remove menu
-	set guioptions-=T							" remove toolbar
-	set guioptions-=r							" remove right scrollbar
-	set guioptions-=b							" remove bottom scrollbar
-	set guioptions-=L							" remove left scrollbar
-	set guicursor+=a:block-blinkon0				" use solid block cursor
-	"Paste from PRIMARY and CLIPBOARD
-	"inoremap <silent> <M-v> <Esc>"+p`]a
-	"inoremap <silent> <S-Insert> <Esc>"*p`]a
 endif
 
 " vimdiff
@@ -198,6 +184,8 @@ nmap <Leader>ta :'<,'> Tabularize /
 vmap <Leader>ta :Tabularize /
 " vsplit
 nnoremap <leader>v :vsplit<CR>
+" split
+nnoremap <leader>h :split<CR>
 " Edit .vimrc
 nnoremap <leader>vi :e $HOME/.vimrc<CR>
 nnoremap <leader>vr :source $HOME/.vimrc<CR>
