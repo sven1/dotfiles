@@ -18,6 +18,7 @@ music/*
 .elinks/*
 .wine/*
 .weechat/irc.conf
+.config/libreoffice/
 .config/mpd/mpd.log
 .config/mpd/mpd.pid
 .config/mpd/mpd.state
