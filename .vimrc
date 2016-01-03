@@ -1,51 +1,30 @@
 set nocompatible		" use vim defaults instead of vi
 set encoding=utf-8		" always encode in utf
-"
-" -----------------------------------------------------------------------------
-"
-" Brief help
-" :PluginList			- lists configured plugins
-" :PluginInstall		- installs plugins
-" :PluginUpdate			- Update Plugins
-" :PluginSearch foo		- searches for foo; append `!` to refresh local cache
-" :PluginClean			- confirms removal of unused plugins
-"
-" see :h vundle for more details or wiki for FAQ
 
 set runtimepath+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
-	" let Vundle manage Vundle, required
 	Plugin 'gmarik/Vundle.vim'
 
-	"Put your non-Plugin stuff after this line
-	"Plugin 'Shougo/neocomplete'				" Automatic keyword completion
-	"Plugin 'Shougo/unite.vim'					" Find files and buffers using ag
-	"Plugin 'Shougo/vimfiler.vim'				" File Explorer :VimFiler
 	Plugin 'jlanzarotta/bufexplorer'			" Buffer Explorer :BufExplore
 	Plugin 'godlygeek/tabular'					" Text alignment
 	Plugin 'majutsushi/tagbar'					" Display tags in a window
-	"Plugin 'scrooloose/syntastic'				" Syntax checking on write
+	Plugin 'scrooloose/syntastic'				" Syntax checking on write
 	Plugin 'tpope/vim-fugitive'					" Git wrapper
 	Plugin 'tpope/vim-surround'					" Manipulate quotes and brackets
 	Plugin 'bling/vim-airline'					" Pretty statusbar
 	Plugin 'terryma/vim-multiple-cursors'		" Multiple cursors work
 	Plugin 'edkolev/promptline.vim'				" Prompt generator for bash
 	Plugin 'altercation/vim-colors-solarized.git'	" Solarized theme
-	"Plugin 'nathanaelkane/vim-indent-guides.git'	" Show tab/space guides
 	Plugin 'The-NERD-Commenter'
+	Plugin 'SirVer/ultisnips'	"Snippets
+	Plugin 'honza/vim-snippets'
 
-  " All of your Plugins must be added before the following line
 call vundle#end()
 
 if has("win32")
 	set runtimepath+=~/.vim
 endif
 
-"}}}
-" Settings {{{
-" -----------------------------------------------------------------------------
-
-" File detection
 filetype on
 filetype plugin indent on
 syntax on
@@ -69,7 +48,6 @@ set spelllang=es					" spell
 set spellfile=~/.vim/spell/es.utf-8.add
 set textwidth=0						" don't break lines after some maximum width
 set ttyfast							" increase chars sent to screen for redrawing
-"set ttyscroll=3					" limit lines to scroll to speed up display
 set title							" use filename in window title
 set wildmenu						" enhanced cmd line completion
 set wildchar=<TAB>					" key for line completion
@@ -312,6 +290,11 @@ autocmd BufNewFile,BufRead *.markdown,*.md,*.mdown,*.mkd,*.mkdn
 " Set filetype for prg
 autocmd BufNewFile,BufRead *.prg,*.dev,*.act,*.cas set ft=prg
 
+"let g:UltiSnipsExpandTrigger="<tab>"
+let g:UltiSnipsJumpForwardTrigger="<c-b>"
+let g:UltiSnipsJumpBackwardTrigger="<c-z>"
+
+
 "}}}
 " Functions {{{
 " -----------------------------------------------------------------------------
@@ -365,6 +348,3 @@ function! ExecCompiler()
 endfunction
 
 "}}}
-
-
-" vim: set noexpandtab tabstop=4 shiftwidth=4 softtabstop=4:
