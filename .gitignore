@@ -31,6 +31,7 @@ music/*
 .sdcv_history
 .config/gtk-2.0/*
 .stardict/*
+.vim/bundle/*
 
 # Compiled Sources
 
