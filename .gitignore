@@ -32,6 +32,8 @@ music/*
 .config/gtk-2.0/*
 .stardict/*
 .vim/bundle/*
+.sane/*
+.hplip/*
 
 # Compiled Sources
 
