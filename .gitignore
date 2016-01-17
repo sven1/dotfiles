@@ -17,7 +17,6 @@ music/*
 .i3/logs/*
 .elinks/*
 .wine/*
-.weechat/irc.conf
 .config/libreoffice/
 .config/mpd/mpd.log
 .config/mpd/mpd.pid
@@ -25,7 +24,7 @@ music/*
 .config/menus/*
 .viminfo
 .xsel.log
-.weechat/weechat.log
+.weechat/*
 .mplayer/*
 .Xauthority
 .sdcv_history
