@@ -33,6 +33,8 @@ music/*
 .vim/bundle/*
 .sane/*
 .hplip/*
+.esd_auth
+.config/pulse/*
 
 # Compiled Sources
 
