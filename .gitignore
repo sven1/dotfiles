@@ -35,6 +35,9 @@ music/*
 .hplip/*
 .esd_auth
 .config/pulse/*
+.config/gconf/*
+.config/pavucontrol.ini
+.config/gvbam/*
 
 # Compiled Sources
 
