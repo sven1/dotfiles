@@ -38,6 +38,7 @@ music/*
 .config/gconf/*
 .config/pavucontrol.ini
 .config/gvbam/*
+.config/vlc/*
 
 # Compiled Sources
 

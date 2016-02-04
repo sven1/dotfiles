@@ -14,6 +14,6 @@ xset fp+ $HOME/.fonts/tewi
 
 xinput set-button-map 10 1 2 3 4 5 2 7 8 9
 
-[ ! -s ~/.config/mpd/mpd.pid ] && mpd ~/.config/mpd/mpd.conf
+mpd
 
 exec i3 -V >> ~/.i3/logs/i3log-$(date +'%F-%k-%M-%S') 2>&1
